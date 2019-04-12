@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A World Bridge</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: deepskyblue;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            font-family: "helvetica", sans-serif;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+
+    <div id="header">
+        <img src ="../images/WB_Banner.jpeg"/>
+    </div>
+
+    <div class="content">
+        <div class="navbar">
+
+            <!--Home-->
+            <a href="#">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">About A World Bridge®</button>
+                <div class="dropdown-content">
+                    <a href="#">About A World Bridge®</a>
+                    <a href="#">About Trillium Learning</a>
+                    <a href="#">Trillium Learning Officers</a>
+                </div>
+            </div>
+
+            <!--World Network-->
+            <div class="dropdown a">
+                <button class="dropbtn">World Network</button>
+                <div class="dropdown-content">
+                    <a href="#">Provinci Autonoma Di Trento</a>
+                    <a href="#">Taiwan</a>
+                    <a href="#">United States</a>
+                </div>
+            </div>
+
+            <!--Projects-->
+            <div class="dropdown b">
+                <button class="dropbtn">The Projects</button>
+                <div class="dropdown-content">
+                    <a href="#">Earthquake Signal Precursors (ESP)</a>
+                    <a href="#">NASA Europa (World) Challenge</a>
+                    <a href="#">Artist and the Scientist</a>
+                    <a href="#">Florida Natural Lands Projects</a>
+                    <a href="#">Unmanned Aircraft Systems - Scientific Applications</a>
+                    <a href="#">Nanotechnology in Agriculture</a>
+                    <a href="#">Marine Debris Monitoring</a>
+                    <a href="#">High-Altitude CubeSat and Low Earth Orbit</a>
+                    <a href="#">Earth Systems Simulation</a>
+                    <a href="#">Sharing World Language and Culture</a>
+                    <a href="#">NASA CitySmart - Sustainable Communities</a>
+                </div>
+            </div>
+
+            <!--A World Bridge® Labs-->
+            <a href="#">A World Bridge® Labs</a>
+
+            <!--Support-->
+            <div class="dropdown c">
+                <button class="dropbtn">Support</button>
+                <div class="dropdown-content">
+                    <a href="#">Tutorials</a>
+                </div>
+            </div>
+            <!--Contact-->
+            <a href="#">Contact</a>
+        </div>
+</body>
+</html>
